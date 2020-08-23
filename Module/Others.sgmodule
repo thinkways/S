@@ -31,8 +31,6 @@ URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
 (?<=&app_version=)15..(?=.?.?&) 1 307
 (?<=\?version_code=)15..(?=.?.?&) 1 307
 
-# > tiktok去水印(*.amemv.com, *.snssdk.com)
-^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
 
 [Script]
 # > B乎去广告(api.zhihu.com, www.zhihu.com)
